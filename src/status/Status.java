@@ -24,8 +24,8 @@ public class Status {
     public static void main(String[] args)
     {
     Scanner in =new Scanner(System.in);
-    System.out.println("Enter the user status code (zero,one,two,three) in string");
-    String code = in.next();
+    System.out.println("Enter the user status code (between 0-3): ");
+        int code = in.nextInt();
     StausUser t= new StausUser();
     t.statusDetail(code); 
     }
